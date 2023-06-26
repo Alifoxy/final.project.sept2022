@@ -1,9 +1,18 @@
+
+.card_body{
+  background-color: aquamarine;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: yellowgreen;
+  padding: 10px;
+}
+
 .actions{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 
 mat-card-content{
-  padding: 15px;
+  padding: 25px;
 }

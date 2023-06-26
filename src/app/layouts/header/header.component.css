@@ -12,8 +12,11 @@
 
 .tool-bar {
   justify-content: space-between;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .active {
-  color: red;
+  color: chartreuse;
 }
