@@ -2,9 +2,12 @@
   display: flex;
 }
 
-.links div {
-  padding: 0 5px;
+.links div{
+  display: flex;
+  padding: 7px 10px 0 0;
+  justify-content: space-around;
 }
+
 
 .links div:hover {
   cursor: pointer;
@@ -15,8 +18,18 @@
   background-color: cornflowerblue;
   border-radius: 10px;
   padding: 20px;
+  color: lightcyan;
+  font-family: "Bowlby One SC",sans-serif;
+
+
 }
 
 .active {
+  color: chartreuse;
+}
+.site_name{
+  font-size: 20px;
+}
+.example-icon{
   color: chartreuse;
 }

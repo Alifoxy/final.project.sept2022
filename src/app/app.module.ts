@@ -10,6 +10,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MainInterceptor} from "./main.interceptor";
 import {MatDialogModule} from "@angular/material/dialog";
+import {MatIconModule} from "@angular/material/icon";
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import {MatDialogModule} from "@angular/material/dialog";
     BrowserAnimationsModule,
     MatToolbarModule,
     MatDialogModule,
+    MatIconModule,
+    MatButtonModule,
   ],
   providers: [
     {
