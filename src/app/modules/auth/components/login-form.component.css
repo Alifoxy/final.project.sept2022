@@ -11,7 +11,14 @@
   display: flex;
   justify-content: flex-start;
 }
+form{
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 300px;
+}
 
 mat-card-content{
   padding: 25px;

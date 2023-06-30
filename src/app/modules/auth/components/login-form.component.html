@@ -1,13 +1,13 @@
-<div>
+<div class="form_div">
   <form [formGroup]="form" (submit)="login()">
     <mat-card class="card_body">
       <mat-card-title>Login</mat-card-title>
-      <mat-error *ngIf="error">Username or Password is incorrect</mat-error>
+      <mat-error *ngIf="error">Email or Password is incorrect</mat-error>
       <mat-card-content>
         <div>
           <mat-form-field appearance="outline">
-            <mat-label>Username</mat-label>
-            <input type="text" matInput formControlName="username">
+            <mat-label>Email</mat-label>
+            <input type="email" matInput formControlName="email" placeholder="Ex. pat@example.com">
             <mat-error>This field is required</mat-error>
           </mat-form-field>
         </div>
