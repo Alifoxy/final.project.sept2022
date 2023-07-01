@@ -1,6 +1,5 @@
-<div class="form_div">
-  <form [formGroup]="form" (submit)="login()">
-    <mat-card class="card_body">
+<mat-card class="card">
+      <form [formGroup]="form" (submit)="login()" class="card_div">
       <mat-card-title>Login</mat-card-title>
       <mat-error *ngIf="error">Email or Password is incorrect</mat-error>
       <mat-card-content>
@@ -22,7 +21,8 @@
       <mat-card-actions class="actions">
         <button mat-raised-button color="primary">Login</button>
       </mat-card-actions>
+      </form>
     </mat-card>
-  </form>
-</div>
+
+
 

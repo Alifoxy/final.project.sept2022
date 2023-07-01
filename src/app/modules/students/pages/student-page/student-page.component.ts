@@ -1,31 +1,31 @@
 import {Component} from '@angular/core';
-import {ICar} from "../../../../interfaces";
-import {CarService} from "../../../../services";
+import {IStudent} from "../../../../interfaces";
+import {StudentService} from "../../../../services";
 import {PageEvent} from "@angular/material/paginator";
 import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
-  selector: 'app-car-page',
-  templateUrl: './car-page.component.html',
-  styleUrls: ['./car-page.component.css']
+  selector: 'app-student-page',
+  templateUrl: './student-page.component.html',
+  styleUrls: ['./student-page.component.css']
 })
-export class CarPageComponent {
-  cars: ICar[];
+export class StudentPageComponent {
+  students: IStudent[];
   length: number;
   pageIndex: number;
 
   pageSize = 10;
   showFirstLastButtons = true;
 
-  constructor(private carService: CarService, private router: Router, private activatedRoute: ActivatedRoute) {
+  constructor(private studentService: StudentService, private router: Router, private activatedRoute: ActivatedRoute) {
   }
 
   ngOnInit(): void {
     this.activatedRoute.queryParams.subscribe(({page}) => {
       this.pageIndex = page-1
-      this.carService.getAll(page).subscribe(value => {
+      this.studentService.getAll(page).subscribe(value => {
         this.length = value.total_items
-        this.cars = value.items
+        this.students = value.items
       })
     })
   }

@@ -3,7 +3,7 @@ import {environment} from "../../environments/environment.fin_prj";
 const {API} = environment;
 
 const auth = `${API}/auth`
-const cars = `${API}/cars`
+const students = `${API}/students`
 const users = `${API}/users`
 
 const urls = {
@@ -13,9 +13,9 @@ const urls = {
     register: users,
     me: `${auth}/me`
   },
-  cars: {
-    full: cars,
-    byId: (id: number): string => `${cars}/${id}`
+  students: {
+    full: students,
+    byId: (id: number): string => `${students}/${id}`
   }
 }
 

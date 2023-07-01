@@ -4,7 +4,7 @@ import {LoginFormComponent} from "../../components/login-form.component";
 
 @Component({
   selector: 'app-login-page',
-  template: '',
+  templateUrl: 'login-page.component.html',
 })
 export class LoginPageComponent implements OnInit {
   constructor(private matDialog: MatDialog) {

@@ -1,5 +1,11 @@
-
-.card_body{
+.card_div{
+  background-color: yellow;
+}
+.card{
+  width: 400px;
+  height: 300px;
+  display: flex;
+  left: 650px;
   background-color: aquamarine;
   border-style: dashed;
   border-width: 5px;
@@ -11,15 +17,11 @@
   display: flex;
   justify-content: flex-start;
 }
-form{
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 800px;
-  height: 300px;
-}
-
+/*.card_div{*/
+/*  max-width: 500px;*/
+/*  max-height: 400px;*/
+/*}*/
 mat-card-content{
   padding: 25px;
 }
+

@@ -1,1 +1,1 @@
-export * from './car.resolver';
+export * from './student.resolver';

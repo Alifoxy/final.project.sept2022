@@ -1,3 +1,3 @@
 export * from './resolvers';
 export * from './auth.service';
-export * from './car.service';
+export * from './student.service';
