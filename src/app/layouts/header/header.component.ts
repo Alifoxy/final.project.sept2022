@@ -8,6 +8,7 @@ import {AuthService} from "../../services";
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+
   user: IAuth | null;
 
   constructor(private authService: AuthService) {

@@ -17,7 +17,7 @@ import {MatButtonModule} from "@angular/material/button";
   declarations: [
     AppComponent,
     MainLayoutComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
