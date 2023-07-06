@@ -1,4 +1,4 @@
-import {environment} from "../../environments/environment.fin_prj";
+import {environment} from "../../environments/environment";
 
 const {API} = environment;
 

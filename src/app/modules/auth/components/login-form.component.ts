@@ -31,7 +31,7 @@ export class LoginFormComponent implements OnInit {
     console.log(this.form.getRawValue());
     this.authService.login(this.form.getRawValue()).subscribe({
       next: () => {
-        this.router.navigate(['/cars'])
+        this.router.navigate(['/students'])
         this.dialogRef.close()
       },
       error: (err) => {
