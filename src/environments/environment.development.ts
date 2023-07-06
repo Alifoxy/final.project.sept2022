@@ -1,5 +1,5 @@
 import {IEnvironment} from "../app/interfaces";
 
 export const environment:IEnvironment = {
-  API:'https://owu.linkpc.net/carsAPI/v2'
+  API:'mysql://lego12:lego12@owu.linkpc.net:3306/lego12'
 };
