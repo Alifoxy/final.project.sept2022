@@ -5,4 +5,12 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   background-color: darkslategray;
 }
+.cdk-overlay-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 600px;
+
+}
 

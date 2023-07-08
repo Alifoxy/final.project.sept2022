@@ -15,21 +15,21 @@
 
 .tool-bar {
   justify-content: space-between;
-  background-color: cornflowerblue;
+  background-color: darkcyan;
   border-radius: 10px;
   padding: 20px;
-  color: lightcyan;
+  color: aliceblue;
   font-family: "Bowlby One SC",sans-serif;
 
 
 }
 
 .active {
-  color: chartreuse;
+  color: springgreen;
 }
 .site_name{
   font-size: 20px;
 }
 .example-icon{
-  color: chartreuse;
+  color: springgreen;
 }
