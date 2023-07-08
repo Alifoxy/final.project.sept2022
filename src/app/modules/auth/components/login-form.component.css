@@ -1,21 +1,21 @@
-.card_div{
-  background-color: yellow;
-}
-.card{
-  width: 400px;
-  height: 300px;
-  display: flex;
-  left: 650px;
-  background-color: aquamarine;
-  border-style: dashed;
-  border-width: 5px;
-  border-color: yellowgreen;
-  padding: 10px;
-}
+/*.card_div{*/
+/*  background-color: yellow;*/
+/*}*/
+/*.card{*/
+/*  width: 400px;*/
+/*  height: 300px;*/
+/*  display: flex;*/
+/*  left: 650px;*/
+/*  background-color: aquamarine;*/
+/*  border-style: dashed;*/
+/*  border-width: 5px;*/
+/*  border-color: yellowgreen;*/
+/*  padding: 10px;*/
+/*}*/
 
 .actions{
   display: flex;
-  justify-content: flex-start;
+  justify-content: right;
 }
 /*.card_div{*/
 /*  max-width: 500px;*/
