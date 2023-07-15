@@ -13,10 +13,10 @@ export class StudentService {
   }
 
   getAll(page = 1): Observable<IPagination<IStudent>> {
-    return this.httpClient.get<IPagination<IStudent>>(urls.students.full, {params: {page}})
+    return this.httpClient.get<any>(urls.students.full, {params: {page}})
   }
 
-  getById(id: number): Observable<IStudent> {
-    return this.httpClient.get<IStudent>(urls.students.byId(id))
+  getById(id: number): Observable<any> {
+    return this.httpClient.get<IPagination<IStudent>>(urls.students.byId(id))
   }
 }

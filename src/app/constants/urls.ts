@@ -1,10 +1,10 @@
-import {environment} from "../../environments/environment";
 
-const {API} = environment;
+const baseUrl = "mysql://lego12:lego12@owu.linkpc.net:3306/lego12";
 
-const auth = `${API}/auth`
-const students = `${API}/students`
-const users = `${API}/users`
+
+const auth = `${baseUrl}/auth`
+const students = `${baseUrl}/orders`
+const users = `${baseUrl}/users`
 
 const urls = {
   auth: {

@@ -1,5 +1,5 @@
 import {IEnvironment} from "../app/interfaces";
 
-export const environment:IEnvironment = {
-  API:''
+export const environment: IEnvironment = {
+  API: ''
 };
